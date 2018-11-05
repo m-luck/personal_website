@@ -1,0 +1,58 @@
+doctype html
+html(lang="en")
+	head
+		title= "HPC Playground"
+		link(href='main.css', rel='stylesheet')
+	body
+		.container
+			.title-container
+				h1.title.code &lt;App Handler Prototypes&gt; &lt;Holodeck&gt;
+			
+			.sample#win
+				.sample-title __
+				.sample-code
+					.code 
+						span.code-summary win
+				.card-list
+					.card
+						h3.card-title.code.code-details &lt;proliferate&gt;
+						p.card-description 
+							span.code opens processes en masse
+						.squarebutton 
+							a(href="downloadables/proliferate.bat") RUN
+
+					.card
+						h3.card-title.code.code-summary &lt;eliminate&gt;
+						p.card-description 
+							span.code closes processes en masse
+						.squarebutton 
+							a(href="downloadables/eliminate.bat") RUN						
+				div(style="padding-top:20px")
+					.sample-html 
+						details.sample-html-details 
+							summary.sample-html-summary How does this work?
+							.speech This prototype for Windows uses two batch files to jumpstart multiple processes and gently attempt to kill them. It will delete itself after running. x
+					
+			.sample#mac
+				.sample-title __
+				.sample-code
+					.code 
+						span.code-summary mac
+
+				div(style="padding-top:20px")
+					.sample-html 
+						details.sample-html-details 
+							summary.sample-html-summary This component is in process.
+							.speech Finding the way in UNIX.
+
+			.sample#linux
+				.sample-title __
+				.sample-code
+					.code 
+						span.code-summary mac
+
+				div(style="padding-top:20px")
+					.sample-html 
+						details.sample-html-details 
+							summary.sample-html-summary This component is in process.
+							.speech Finding the way in UNIX.

@@ -1,0 +1,99 @@
+/* for separate file landing page */
+
+html, body { color: #777; min-height: 100vh; min-width: 100vw; margin: 0;}
+
+#header {
+	position: fixed;
+}
+
+#hamburger_news {
+	position: fixed;
+	top: 25px;
+	left: 25px;
+	width: 50px;
+	height: 50px;
+	background-color: #555;
+}
+
+#news {
+	
+}
+
+.banner{
+	text-align: right;
+		background-size: cover;
+	background-position: center;
+}
+
+#brain_states_banner{
+	height: 30vh;
+	width: 100%;
+	background-color: #EEE;
+	background-image: url('bs.jpg');
+}
+
+#essays_banner{
+	height: 25vh;
+	background-color: #CCC;
+	background-image: url('parch.jpg');
+}
+
+#functions_banner{
+	height: 20vh;
+	background-color: #AAA;
+	background-image: url('vectors.svg');
+}
+
+#timeline_banner{
+	height: 15vh;
+	background-color: #999;
+	background-image: url('sedona.jpg');
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:transparent;
+	text-align: center;		
+	background-image:none;	/* make sure IE centers the page too */
+}
+
+#wrapper {
+	width: 100vw;
+			/* center the page */
+}
+
+#content {
+	float: left;
+	font-family: Arial;
+	text-align: left;
+	width: 100%;				/* fill up the entire div */
+}
+
+#menu {
+	float: left;
+	border-bottom: none;		/* avoid a double border */
+	clear: both;				/* clear:both makes sure the content div doesn't float next to this one but stays under it */
+	width:100%;
+	height:20px;
+	text-align: left;
+	font-size: 85%;
+}
+
+#userbar {
+	float: right;
+	width: 250px;
+}
+
+#footer {
+	
+}
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+div a {
+}

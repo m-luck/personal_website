@@ -1,0 +1,2 @@
+module DillpageHelper
+end

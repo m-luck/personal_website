@@ -1,0 +1,2 @@
+module MiscpageHelper
+end

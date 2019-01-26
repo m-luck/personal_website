@@ -1,14 +1,13 @@
 <?php
-include '../connect.php';
-include '../header_step_up.php'; ?>
-
-<div id="functions">
-<h2>Functions</h2>
-<h3>clean code, learning modules, programs, information handlers, automation </h3>
+include 'connect.php';
+include 'header.php'; ?>
+<div id="news">
+    <div><h1 style="opacity:0;">MICHAEL LUKIMAN</h1>
+    <h3 style="font-family: 'Kaushan Script'">f(x)</h3>
+    <h4>input to output</h4>
     <?
-    $sql = "SELECT title FROM logs";
+    $sql = "SELECT * FROM logs WHERE category=3 AND id in (SELECT MAX(id) FROM logs GROUP BY link) ORDER BY id DESC LIMIT 20";
     $result = mysql_query($sql);
-
     if(!$result){
         echo "There are no posts in Michael's database yet.";
     }
@@ -16,14 +15,16 @@ include '../header_step_up.php'; ?>
         if(mysql_num_rows($result) == 0){
             echo 'No posts defined yet.';}
         else{
-            //prepare the table
-            echo '<h3>News</h3>';
-
             while($row = mysql_fetch_assoc($result)) {
-                echo '<div class="post"><h3><a href="posts.php?i='. $row['title'] . '">a' .$row['date_created'] . '</a></h3>' .$row['body1']. '</div>';}
+                echo
+                '<div><a href="posts.php?i=' .$row['link']. '"><div class="posts">
+                    <div class="title">' .$row['title']. '</div>
+                    <div class="left">' .$row['sub1'] . '</div>
+                    <div class="right">' .$row['sub2']. '</div>
+                </div></a></div>';}
     }
     }
     ?>
 </div>
 
-<? include '../footer.php'; ?>
+<? //include 'footer.php'; ?>

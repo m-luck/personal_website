@@ -14,12 +14,21 @@ else if ($_SESSION['signed_in'] == true){//the user is signed in
 		//retrieve the categories from the database for use in the dropdown
 
 		echo 
-		'<form method="post" action="" style="text-align:center;">
+		'
+                <p>&lt;p&gt;&lt;b&gt;&lt;/b&gt; &lt;/p&gt;<p><br>
+		<form method="post" action="" style="text-align:center;">
 		Title: <textarea name="post_title" /></textarea><br>
 		Subline: <textarea name="post_sub" /></textarea><br>
 		Intro: <textarea name="post_intro" /></textarea><br>
 		Link: <textarea name="post_link" /></textarea><br>
-		Body: <textarea name="post_body" /></textarea><br>
+		Body: <textarea name="post_body" />
+&lt;p&gt;&lt;b&gt;Information Motivation:&lt;/b&gt; &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;What they did:&lt;/b&gt; &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Results&lt;/b&gt; &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;However, or interestingly:&lt;/b&gt; &lt;/p&gt;
+&lt;p&gt;&lt;b&gt;In your life:&lt;/b&gt; &lt;/p&gt;
+
+</textarea><br>
 		Category: <textarea rows="1" cols="3" name="post_category" /></textarea><br>
 		Tags: <textarea name="post_tags" /></textarea><br>
 		Published - <textarea rows="1" cols="3" name="post_category" /></textarea><br>

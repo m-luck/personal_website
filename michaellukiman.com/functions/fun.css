@@ -8,7 +8,7 @@ body {
 }
 
 .posts {
-	border: black solid 3px;
+	border: white solid 1px;
 	border-radius: 20px;
 	width: 70vw;
 	margin-left: auto;
@@ -19,7 +19,7 @@ body {
 }
 
 .post {
-	border: black solid 3px;
+	border: white solid 3px;
 	width: 70vw;
 	margin: auto;
 	height: 300px;

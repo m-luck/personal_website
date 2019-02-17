@@ -2,55 +2,49 @@
 body {
 	font-family: "Inconsolata";
 	font-size: 40px;
-	background-color: #433;
+	background-color: #A11;
 	text-align: center;
 	font-size: 1vw;
-}
-
+	}
 .posts {
 	border: white solid 1px;
-	border-radius: 20px;
+	border-radius: 6px;
+	margin: auto;
 	width: 70vw;
-	margin-left: auto;
-	margin-right: auto;
 	height: 300px;
 	background-color: #EEE;
 	margin-bottom: 50px;
-}
-
-.post {
-	border: white solid 3px;
-	width: 70vw;
-	margin: auto;
-	height: 300px;
-	background-color: #EEE;
-}
-
-.title {     padding-top: 30px; font-size: 40px;     border-bottom: grey
-solid;     font-family:  "Libre Barcode 128 Text";     text-align: center;
-height: 100px; }
-
+	}
+.title {
+	padding-top: 30px;
+	font-size: 40px;
+	border-bottom: grey solid;
+	border-width: 1px;
+	font-family:  "Libre Barcode 128 Text";
+	text-align: center;
+	height: 90px; }
 .left {
 	padding-top: 30px;
-	border: black dashed;
+	border: white dashed;
 	position: relative;
-	border-width: 0 3px 0 0;
+	border-width: 0 1px 0 0;
 	width: 50%;
 	height: 150px;
-	text-align: center;
-}
-
+	text-align: left;
+	padding-left: 30px;
+	padding-right: 30px;
+	}
 .right {
 	padding-top: 30px;
+	padding-left: 30px;
 	position: relative;
 	top: -170px;
 	left: 35vw;
 	height: 200px;
 	width: 50%;
 	text-align: center;
-}
-
+	}
 a {
 	text-decoration: none;
 	color: black;
-}
+	}

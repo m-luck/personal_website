@@ -7,13 +7,12 @@ include 'header.php';
 <div style="width:60vw;">
 <?
 $sql = 'SELECT
-			*
+		*
 		FROM
-			logs
+		logs
 		WHERE
-			link="' . mysql_real_escape_string($i) . '" AND category=3
+		link="' . mysql_real_escape_string($i) . '" AND category=3
 		ORDER BY id DESC LIMIT 1';
-
 $result = mysql_query($sql);
 if(!$result){
 	echo 'The posts could not be displayed, please try again later.';}
@@ -22,11 +21,12 @@ else{
 		echo 'This post does not exist.';}
 	else{
 		while($row = mysql_fetch_array($result)){
-        	echo 
+        	echo
         	'<h1>' . $row['title'] . '</h1>
         	<h3>' . $row['sub1'] . '</h3>
         	<p>' . $row['body1']  . '</p>
         	</div>';}
+					echo '<a href="https://michaellukiman.com/edit_post.php?i=' . $i . '" style="opacity: 0.05">EDIT POST</a>' ;
 }
 }
 include 'footer.php';

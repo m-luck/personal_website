@@ -3,7 +3,7 @@ include 'connect.php';
 include 'header.php'; ?>
 <div id="news">
     <div><h1 style="opacity:0;">MICHAEL LUKIMAN</h1>
-    <h3 style="font-family: 'Kaushan Script'">f(x)</h3>
+    <h3 style="font-family: 'Kaushan Script'; color: white; font-size: 4vh;">f(x)</h3>
     <h4>input to output</h4>
     <?
     $sql = "SELECT * FROM logs WHERE category=3 AND id in (SELECT MAX(id) FROM logs GROUP BY link) ORDER BY id DESC LIMIT 20";
@@ -27,4 +27,4 @@ include 'header.php'; ?>
     ?>
 </div>
 
-<? //include 'footer.php'; ?>
+<? include '../footer.php'; ?>

@@ -1,0 +1,4 @@
+[11-Jan-2019 16:54:04] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home3/gamepeni/public_html/michaellukiman.com/essays/index.php on line 10
+[11-Jan-2019 16:54:14] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home3/gamepeni/public_html/michaellukiman.com/essays/index.php on line 26
+[11-Jan-2019 16:54:16] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home3/gamepeni/public_html/michaellukiman.com/essays/index.php on line 26
+[11-Jan-2019 16:55:15] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home3/gamepeni/public_html/michaellukiman.com/essays/index.php on line 26

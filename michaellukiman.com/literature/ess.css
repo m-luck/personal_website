@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+body {
+	font-family: 'Cinzel', serif;
+}
+
+
+/*GENERATIVE LIST*/
+
+.listwrapper {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+
+.listwrapper a {
+	color: black;
+}
+
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  border-width: 2px 0.5px 2px 0.5px;
+  border-style: solid;
+  border-color: #EEE;
+  &:before {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    font-size: .75em;
+  }
+}
+
+li.dot:before { content: "🌑"; position: relative; top: 60px; left: -90px; color: red; font-size: 50px;}
+
+.listwrapper a { text-decoration: none; }
+
+.post {
+	position: relative; bottom: 2em;
+}
+
+/**/
+

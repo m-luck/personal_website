@@ -1,10 +1,9 @@
 <?php
 //create_cat.php
 include '../connect.php';
-include '../header_step_up.php';
+include 'header.php';
 ?>
 <a href="http://michaellukiman.com/literature">BACK</a><br>
-<div style="width:60vw;">
 <?
 $sql = 'SELECT
 		*
@@ -28,5 +27,5 @@ else{
 }
 }
 }
-include 'footer.php';
+include '../footer.php';
 ?>

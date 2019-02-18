@@ -1,8 +1,9 @@
 <!doctype html>
 <html>
 <head>
-	<meta name="description" content="welcome to the world" />
-	<title>M.J. Lukiman</title>
+	<meta name="description" content="Artifical Intelligence (AI) and Neuroscience Blog by Michael Lukiman" />
+	<title>BRAINSTATES! - M. Lukiman</title>
+	<link rel="shortcut icon" type="image/ico" href="http://michaellukiman.com/favicon.ico"/>
 	<link rel="stylesheet" href="main.css" type="text/css">
 	<meta charset="utf-8">
 	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -17,7 +18,7 @@
 <body>
     <div id="wrapper">
 	    <div id="header">
- 
+
 	        <!-- <a class="item" href="create_post.php">New Post</a> -->
 			<div id="userbar">
 

@@ -32,4 +32,14 @@ li.dot:before { content: "🌑"; position: relative; top: 60px; left: -90px; col
 .post {
 	position: relative; bottom: 2em;
 }
+#footer {
+	color: rgba(0,0,0,0.3);
+}
+#footer a {
+	text-decoration: none;
+	style: none;
+}
+#footer a:visited{
+	color:grey;
+	}
 /**/

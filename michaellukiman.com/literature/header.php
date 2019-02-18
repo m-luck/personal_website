@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta name="description" content="welcome to the world" />
-	<title>M.J. Lukiman</title>
+	<title>"Anthology"</title>
 	<link rel="stylesheet" href="ess.css" type="text/css">
 	<meta charset="utf-8">
 </head>

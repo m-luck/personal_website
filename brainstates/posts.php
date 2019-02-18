@@ -29,5 +29,5 @@ else{
 }
 }
 }
-include 'footer.php';
+include 'http://michaellukiman.com/footer.php';
 ?>

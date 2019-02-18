@@ -2,7 +2,8 @@
 <html>
 <head>
 	<meta name="description" content="welcome to the world" />
-	<title>M.J. Lukiman</title>
+	<title>Thanks for visiting my website. Sincerely, Michael Lukiman</title>
+	<link rel="shortcut icon" type="image/ico" href="http://michaellukiman.com/favicon.ico"/>
 	<link rel="stylesheet" href="main.css" type="text/css">
 	<meta charset="utf-8">
 </head>

@@ -1,0 +1,39 @@
+/* for separate file landing page */
+html, body { min-height: 100vh; min-width: 98vw; margin: 0;}
+#header {
+	position: fixed;
+}
+.post {
+	border-style: solid;
+	border-width: 2px 20px 2px 2px;
+	border-color: #433;
+	border-radius: 6px;
+	width: 90%;
+	margin: 20px;
+	padding: 20px;
+}
+#wrapper {
+	width: 90vw;
+}
+#content {
+	background-color: #fff;
+	margin: 40px;
+	color:#222;
+	font-family: Arial;
+	text-align: left;
+	width: 70%;				/* fill up the entire div */
+}
+a {
+	color: #222;
+	text-decoration: none;
+}
+.post h1, h2, h3 {
+	line-height: 15px;
+	margin: -5px;
+}
+#footer {
+	color: #999;
+	position: fixed;
+	bottom: 2px;
+	right: 30px;
+}

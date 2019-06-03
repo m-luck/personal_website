@@ -1,6 +1,15 @@
 <!doctype html>
 <html>
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-141333415-1"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-141333415-1');
+	</script>
 	<meta name="description" content="welcome to the world" />
 	<title>Thanks for visiting my website. Sincerely, Michael Lukiman</title>
 	<link rel="shortcut icon" type="image/ico" href="http://michaellukiman.com/favicon.ico"/>
